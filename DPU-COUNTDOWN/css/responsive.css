@@ -1,0 +1,93 @@
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 768px) {
+ .banner-text {
+ padding-top: 12%;
+}
+ .banner-text h1 {
+ font-size: 42px;
+}
+ .banner-text p {
+ /* font-size: 24px; */
+}
+ .footer .footer-col {
+ margin-bottom: 50px;
+}
+h1, .type-wrap {
+    font-size: 24px;
+    color: #fff;
+}
+#countdown {
+	margin-bottom:0px;
+}
+#countdown .item:nth-child(1){
+    margin: 15px; 
+	margin-left:0px;
+}
+.item {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin: 0 10px;
+    padding: 15px 0 20px 0;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #fff;
+    margin: 0 !important;
+    width: 140px;
+    margin: 15px;
+    margin-left:0px;
+}
+.item:before {
+    position: absolute;
+    content: ':';
+    width: 20px;
+    height: 69px;
+    /* background: #8bc34a; */
+    -ms-transform: rotate(7deg);
+    /* -webkit-transform: rotate(7deg); */
+    /* transform: rotate(-35deg); */
+    left: 169px;
+    color: #fff;
+    font-size: 58px;
+    top: 11px;
+}
+.subscribe {
+    padding-bottom: 4px;
+}
+}
+@media screen and (max-width: 640px) {
+ .banner-text {
+ padding-top: 12%;
+}
+h1, .type-wrap {
+    font-size: 18px;
+    color: #fff;
+    width: 100%;
+}
+.item:before {
+    left: 89%;
+}
+#countdown .item:nth-child(2):before{
+	content:'';
+}
+}
+@media screen and (max-width: 480px) {
+ .banner-text {
+ padding-top: 12%;
+}
+ .banner-text h1 {
+ font-size: 32px;
+}
+ .item {
+ width: 45%;
+}
+}
+@media screen and (max-width: 320px) {
+ .banner-text {
+ padding-top: 55%;
+}
+ .item {
+ width:70%;
+}
+}
